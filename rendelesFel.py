@@ -1,4 +1,4 @@
-def randelesLeves(jel1, levesek,levesAr,jel2,etlap_hossz,rendelt,rendeltArak):
+def randelesLeves(jel1, levesek, levesAr, jel2, etlap_hossz, rendelt, rendeltArak):
     rendeles = input("Szeretne e rendelni levest?(I/N)")
     if rendeles == "I" or rendeles == "i":
         folytat = True
@@ -21,9 +21,7 @@ def randelesLeves(jel1, levesek,levesAr,jel2,etlap_hossz,rendelt,rendeltArak):
         print("Hibásan adta meg a választ!")
 
 
-
-
-def randelesFoetelek(jel1, foetelek,foetelAr,jel2,etlap_hossz,rendelt,rendeltArak):
+def randelesFoetelek(jel1, foetelek, foetelAr, jel2, etlap_hossz, rendelt, rendeltArak):
     rendeles = input("Szeretne e rendelni főételt?(I/N)")
     if rendeles == "I" or rendeles == "i":
         folytat = True
