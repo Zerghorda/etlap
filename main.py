@@ -28,11 +28,6 @@ rendelesFel.randelesLeves("*", levesek, levesAr, "*", etlap_hossz, rendelt, rend
 etlapmodul.kaja("*", foetelek[0], foetelAr[0], "Ft", "*", etlap_hossz)
 etlapmodul.kaja("*", foetelek[1], foetelAr[1], "Ft", "*", etlap_hossz)
 rendelesFel.randelesFoetelek("*", foetelek, foetelAr, "*", etlap_hossz, rendelt, rendeltArak)
-
-
-
-
-
-#while i < len(rendelt):
- #   rendeles.rendeles("*", rendelt, rendeltAr, "FT", "*", etlap_hossz)
-#rendeles.osszeg("*", "Összesen:", sum(levesAr), "FT", "*", etlap_hossz)
+while i < len(rendelt):
+    rendeles.rendeles("*", rendelt, rendeltArak, "FT", "*", etlap_hossz)
+    rendeles.osszeg("*", "Összesen:", sum(levesAr), "FT", "*", etlap_hossz)

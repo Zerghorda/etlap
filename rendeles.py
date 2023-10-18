@@ -1,6 +1,6 @@
-def rendeles(jel1, rendelt, rendeltAr, penznem, jel2, etlap_hossz):
+def rendeles(jel1, rendelt, rendeltArak, penznem, jel2, etlap_hossz):
     hossz: int = etlap_hossz - (len(jel1) + len(jel2))
-    print(f"{jel1},{rendelt:^},{rendeltAr},{penznem},{jel2}")
+    print(f"{jel1},{rendelt:>{hossz-len(rendeltArak)}},{rendeltArak},{penznem},{jel2}")
 
 
 def osszeg(jel1, szoveg, szam, penznem, jel2, etlap_hossz):
